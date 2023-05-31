@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Task {{ task_num }}</h1>
+
+{% if result %}
+    {{ result|safe }}
+{% else %}
+    No products imported yet.
+{% endif %}
+
+{% endblock %}

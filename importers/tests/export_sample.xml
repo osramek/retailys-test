@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<export_full date="2022-03-29 07:01:28" version="20160107">
+	<items>
+		<item code="P1" image="https://www.astramodel.cz/images/A/800x600/A1005.jpg" imageDate="2014-04-08" name="Dummy Product 1" brandId="32" brand="ASTRA" czk="89.00" eur="3.50" czksmap="89.00" eursmap="3.50" hasPrice="true" created="2014-01-09" changed="" new="false" stock="true" date="" stock2="true" date2="" stock3="high" date3="" discontinued="false" weight="0.001" length="0.001" width="0.001" height="1.000" recycling_fee="">
+			<descriptions>
+				<description title="Charakteristika" order="1">&lt;p&gt;Tyč z uhlíkových vláken kruhového průřezu ø0.6&amp;nbsp;mm v délce 1&amp;nbsp;m. Hmotnost 0,3&amp;nbsp;g&lt;/p&gt;</description>
+			</descriptions>
+		</item>
+		<item code="P2" image="https://www.astramodel.cz/images/A/800x600/A6018.jpg" imageDate="2017-12-07" name="Dummy Product 2" brandId="32" brand="ASTRA" czk="339.00" eur="13.30" czksmap="339.00" eursmap="13.30" hasPrice="true" created="2017-03-24" changed="" new="false" stock="true" date="" stock2="true" date2="" stock3="low" date3="" discontinued="false" weight="0.029" length="0.200" width="0.120" height="0.020" recycling_fee="">
+			<descriptions>
+				<description title="Charakteristika" order="1">&lt;p&gt;Zarážka monitoru pro FPV konzolu je doplňkovým příslušenstvím pro pult a FPV konzolu&lt;/p&gt;</description>
+				<description title="Obsah balení" order="3">&lt;p&gt;Obsahem balení je zarážka monitoru pro FPV konzolu-uhlík, adapter pro montáž na desku FPV konzole, spojovací materiál&lt;/p&gt;</description>
+				<description title="Charakteristika" order="4">&lt;p&gt;Zarážka monitoru pro FPV konzolu je doplňkovým příslušenstvím pro pult a FPV konzolu pro drony Yuneec Typhoon H. Externí monitor menších rozměrů mívá uchycení pomocí spodního šroubu, které se používá u stativů. Pro tenhle případ je zarážka monitoru určena, monitor se přišroubuje na zarážku a lze seřizovat nahodu a dolu tak, aby monitor ležel na horní desce FPV konzole. &lt;/p&gt;</description>
+			</descriptions>
+			<parts>
+				<part categoryId="1" name="Náhradní díly" order="1">
+					<item code="P1" name="Dummy Product 1" />
+					<item code="P3" name="Dummy Product 3" />
+				</part>
+				<part categoryId="6" name="Doporučené příslušenství" order="3">
+					<item code="EM-QC19" name="Síťový univerzální USB adaptér (zdroj) QC3.0 19W" />
+				</part>
+			</parts>
+		</item>
+	</items>
+	<categories>
+		<category id="1594" type="category" name="RC hračky a stavebnice">
+			<category id="1595" type="category" name="Auta">
+				<item code="NH93167" name="NINCORACERS Mini Driftrax 2.4GHz RTR" />
+			</category>
+		</category>
+	</categories>
+	<categoriesWithParts>
+		<category id="c1594" type="category" name="RC hračky a stavebnice">
+			<category id="c1595" type="category" name="Auta">
+				<item code="NH93167" name="NINCORACERS Mini Driftrax 2.4GHz RTR" />
+			</category>
+		</category>				
+	</categoriesWithParts>
+	<categoriesNew>
+		<category id="1594" type="category" name="RC hračky a stavebnice">
+			<category id="1595" type="category" name="Auta">
+				<item code="NH93167" name="NINCORACERS Mini Driftrax 2.4GHz RTR" />
+			</category>
+		</category>
+	</categoriesNew>
+	<brands>
+		<brand id="123" name="Academy" />
+	</brands>
+	<itemSpecs>
+		<spec id="2407" name="Akumulátor" />
+	</itemSpecs>
+	<partCategories>
+		<partCategory id="1" name="Náhradní díly" />
+	</partCategories>
+	<discontinuedItems>
+		<item code="A9001" name="Plech hliník 127x258x0.8mm s povrchovou úpravou" date="2022-01-07" />
+	</discontinuedItems>
+</export_full>

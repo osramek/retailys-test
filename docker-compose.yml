@@ -1,0 +1,29 @@
+version: "3"
+
+services:
+  backend:
+    build: .
+    environment: &backend-envs
+      - DRAMATIQ_BROKER_URL=redis://redis/1
+      - CACHE_REDIS_URL=redis://redis/2
+    ports:
+      - 4000:4000
+    depends_on:
+      - redis
+
+  backend-worker:
+    build: .
+    environment: *backend-envs
+    command: "flask worker --processes=1"
+    depends_on:
+      - redis
+
+  backend-scheduler:
+    build: .
+    environment: *backend-envs
+    command: "flask periodiq"
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:alpine

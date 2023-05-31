@@ -1,0 +1,14 @@
+<ul>
+    {% for product in products %}
+        {% if product.spare_part_codes %}
+            <li>
+                {{ product.name }}, <strong>{{ product.code }}</strong>
+                <ul>
+                    {% for part_code in product.spare_part_codes %}
+                        <li>{{ products_map[part_code] }}, {{ part_code }}</li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>
