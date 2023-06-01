@@ -37,5 +37,5 @@ def test_parsing_xml_file(sample_xml_file, expected_result):
 
 
 def test_parsing_zip_archive(sample_zip_file, expected_result):
-    result = AstraParser().process_zipfile(sample_zip_file)
+    result = AstraParser().process_archive(sample_zip_file)
     assert result == expected_result

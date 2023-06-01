@@ -13,16 +13,11 @@ ARCHIVE_URL = "https://www.retailys.cz/wp-content/uploads/astra_export_xml.zip"
 class AstraImporter:
     def run(self, archive_url=ARCHIVE_URL):
         response = requests.get(archive_url)
-        return AstraParser().process_zipfile(io.BytesIO(response.content))
-        # return ImportResult(products=[
-        #     Product("Acode", "Aname", ["Bcode", "Ccode", "Xcode"]),
-        #     Product("Bcode", "Bname"),
-        #     Product("Ccode", "<h1>Neco</h1>"),
-        # ])
+        return AstraParser().process_archive(io.BytesIO(response.content))
 
 
 class AstraParser:
-    def process_zipfile(self, file):
+    def process_archive(self, file):
         with zipfile.ZipFile(file, "r") as zip_file:
             export_str = zip_file.read("export_full.xml").decode("utf-8")
             return self.parse_xml(io.StringIO(export_str))
